@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Study Materials</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet"
+          href="css/materials.css">
+
+</head>
+
+
+<body>
+
+
+<nav>
+
+    <h2>StudyShare</h2>
+
+    <div>
+
+        <a href="dashboard.html">
+            Dashboard
+        </a>
+
+        <a href="materials.html">
+            Materials
+        </a>
+
+        <a href="#" id="logout">
+            Logout
+        </a>
+
+    </div>
+
+</nav>
+
+
+
+<section class="materials">
+
+    <h1>
+        Study Materials
+    </h1>
+
+
+    <input
+        type="text"
+        id="search"
+        placeholder="Search materials..."
+    >
+
+
+
+    <div class="material-buttons">
+
+
+        <button id="viewAll">
+            View All
+        </button>
+
+
+
+        <label
+            for="uploadMaterial"
+            class="upload-btn"
+        >
+            Upload Material
+        </label>
+
+
+
+        <input
+            type="file"
+            id="uploadMaterial"
+            accept=".pdf,image/*"
+        >
+
+
+    </div>
+
+
+
+    <div id="materialList">
+
+    </div>
+
+
+</section>
+
+
+
+<script src="js/login.js"></script>
+
+<script src="js/materials.js"></script>
+
+
+</body>
+
+</html>
